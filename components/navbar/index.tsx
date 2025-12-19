@@ -25,6 +25,7 @@ const Navbar = () => {
 
   const me = useAppSelector((state) => state.profile);
 
+  // TODO: fix these urls
   const tabs: TabProps[] = [
     {
       label: "Canvas",
